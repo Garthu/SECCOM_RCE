@@ -1,4 +1,4 @@
-#SETUP
+## SETUP
 
 ```
 docker-compose build
