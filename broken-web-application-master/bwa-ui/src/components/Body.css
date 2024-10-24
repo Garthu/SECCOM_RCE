@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+    background-color: #282c44;
+  }
+  
+  header {
+    background-color: #282c44;
+    color: #fff;
+    padding: 20px;
+    height: 80px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+  }
+  
+  .center {
+    margin: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .blank {
+    color:#fff;
+    font-size: 20px;
+    text-align: center;
+    padding: 10%;
+  }
+  
+  h1 {
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff;
+  }
+
+  .h2-text {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+  }
+  
+  p {
+    font-size: 20px;
+    margin-bottom: 50px;
+    color: #fff;
+  }
+  
+  .buttons {
+    display: flex;
+  }
+
+  button {
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    min-width: 200px;
+  }
+  
+  .blue {
+    background-color: #2196F3;
+    border: 1px solid transparent;
+  }
+  
+  .transparent {
+    background-color: transparent;
+    border: 1px solid #fff;
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 500px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #fff;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.3);
+    margin: 20px auto;
+  }
+  
+  .input-box input {
+    border: none;
+    outline: none;
+    width: calc(100% - 220px);
+    height: 100%;
+    padding: 0 20px;
+    font-size: 20px;
+    color: #333;
+    background-color: transparent;
+  }
+
+  .input-box input.input-login {
+    border: none;
+    outline: none;
+    width: calc(100% - 0px);
+    height: 100%;
+    padding: 0 20px;
+    font-size: 20px;
+    background-color: transparent;
+  }
+  
+  .input-box button {
+    border: none;
+    outline: none;
+    border-radius: 30px;
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 20px;
+    color: #282c44;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    min-width: 200px;
+    background-color: white;
+    border: 1px solid #282c44;
+  }
+  
+  .input-box button:hover {
+    background-color: #282c44;
+    color: white;
+  }
+
+  .p-success {
+    color: #2196F3;
+  }
+
+  .p-failure {
+    color: rgb(181, 55, 55);
+  }

@@ -1,0 +1,28 @@
+{
+    "users": [
+        {
+            "name": "jerimundo",
+            "password": "jerimundo",
+            "email": "jerimundo@bwa.com",
+            "admin": 0
+        },
+        {
+            "name": "admin",
+            "password": "admin",
+            "email": "admin@bwa.com",
+            "admin": 1
+        },
+        {
+            "name": "hacking",
+            "password": "hacking",
+            "email": "hacking@bwa.com",
+            "admin": 1
+        },
+        {
+            "name": "47984220417",
+            "password": "LuteComoNuncaPercaComoSempre",
+            "email": "hacking@bwa.com",
+            "admin": 1
+        }
+    ]
+}
